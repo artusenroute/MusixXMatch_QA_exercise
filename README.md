@@ -1,10 +1,10 @@
 # MusixXMatch_QA_exercise
 
 
-##This repo contains the following documents.
+## This repo contains the following documents.
 
 ### TESTPLAN_MUSICXMATCH_ARTUROMORENO.pdf: 
-a detailed document that catalogs the test strategy, objectives, schedule, estimations, deadlines, and the resources required for completing the test cases.
+A detailed document that catalogs the test strategy, objectives, schedule, estimations, deadlines, and the resources required for completing the test cases.
 
 ### MusicXMatch_TestResults.pdf: 
 Describes the coverage and the percentage of successful test and the ones that did not pass.
