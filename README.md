@@ -9,6 +9,6 @@ A detailed document that catalogs the test strategy, objectives, schedule, estim
 ### MusicXMatch_TestResults.pdf: 
 Describes the coverage and the percentage of successful test and the ones that did not pass.
 
-#### The documents with .side extension are the Rec & Play scripts of the features tested.
+#### The documents with .side extension are the Rec & Play scripts of the tested features.
 
 #### The documents with the .txt extension have the results of the API calls
