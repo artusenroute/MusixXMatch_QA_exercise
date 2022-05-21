@@ -1,0 +1,123 @@
+{
+  "id": "1fe95c78-8a5d-42a4-b2ac-cf9ea77dc427",
+  "version": "2.0",
+  "name": "Music Share",
+  "url": "https://www.musixmatch.com",
+  "tests": [{
+    "id": "72dc6695-e081-4dd6-8863-d6b98d424712",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "f8018dd5-e2c8-4b8a-a6b2-223f00c06a4a",
+    "name": "Like Songs",
+    "commands": [{
+      "id": "0cd5aa9f-c3b7-4576-b92c-fbbaa58c0459",
+      "comment": "",
+      "command": "open",
+      "target": "/es",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed550f7f-1b9d-44c5-824f-49a195320e39",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x957",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55ccd496-9390-4f8b-a1f4-a6be5d9f39a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Letras destacadas",
+      "targets": [
+        ["linkText=Letras destacadas", "linkText"],
+        ["css=.mui-nav__inline:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Letras destacadas')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div[3]/div/div[2]/div/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/explore')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Letras destacadas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47190bce-97cd-4783-a5ea-26c234ad3875",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showPosition:nth-child(1) .media-card-title span",
+      "targets": [
+        ["css=.showPosition:nth-child(1) .media-card-title span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/ul/li/div/div[2]/div/h2/a/span", "xpath:idRelative"],
+        ["xpath=//h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'As It Was')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd30eb92-81b8-4062-9bf6-a4e2c6db7143",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showPosition:nth-child(1) .media-card-title span",
+      "targets": [
+        ["css=.showPosition:nth-child(1) .media-card-title span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/ul/li/div/div[2]/div/h2/a/span", "xpath:idRelative"],
+        ["xpath=//h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'As It Was')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c7ef92-d6f6-4bad-a0db-1f6ec056534a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,662.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f91e3533-34fb-46bc-a985-b37a91c734c8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#cf_async_100001910_236191108 .cf_class:nth-child(2)",
+      "targets": [
+        ["css=#cf_async_100001910_236191108 .cf_class:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='cf_async_100001910_236191108']/tonefuse-ad/table/tbody/tr/td[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/tonefuse-ad/table/tbody/tr/td[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d75eb2-69a3-4cf0-9694-5f418113a999",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#cf_async_100001910_236191108 .cf_class:nth-child(2)",
+      "targets": [
+        ["css=#cf_async_100001910_236191108 .cf_class:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='cf_async_100001910_236191108']/tonefuse-ad/table/tbody/tr/td[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/tonefuse-ad/table/tbody/tr/td[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1893f88-6e97-408a-8f35-c471599cab58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-icon--heart2",
+      "targets": [
+        ["css=.mui-icon--heart2", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d109293f-00bf-47a2-8967-58357b86240b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8a415754-78af-4b0f-84fb-43f0d22ec3a2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["72dc6695-e081-4dd6-8863-d6b98d424712"]
+  }],
+  "urls": ["https://www.musixmatch.com/"],
+  "plugins": []
+}
